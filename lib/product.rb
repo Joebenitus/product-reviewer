@@ -8,12 +8,13 @@ class Product
     @file
   end
 
-  # def approved?(file)
-  #   arr = file.split(/,\s|\s\-\s/)
-  #   if arr[2] == 'approve'
-  #     return true
-  #   end
-  #   false
-  # end
+  def review
+    reviewed_array = []
+    @file.each do |p|
+      new_arr = p.split(/,\s|\s\-\s/)
+      reviewed_array.push(new_arr[1])
+    end
+    "APPROVED\n#{reviewed_array.join("\n")}"
+  end
 end
 # puts File.read(input_file)

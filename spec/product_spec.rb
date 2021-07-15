@@ -7,8 +7,8 @@ describe('#product') do
     expect(product1.list).to(eq(["G.C., keychain - approve", "J.M., holographic t-shirt - approve"]))
   end
 
-  # it("outputs APPROVED for a product") do
-  #   product1 = Product.new()
-  #   expect(Product.approved?("G.C., keychain - reject")).to(eq("APPROVED"))
-  # end
+  it("outputs APPROVED for all products") do
+    product_list = Product.new("test-input.txt")
+    expect(product_list.review).to(eq("APPROVED\nkeychain\nholographic t-shirt"))
+  end
 end
