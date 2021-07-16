@@ -12,7 +12,9 @@ class Product
     reviewed_array = []
     @file.each do |p|
       new_arr = p.split(/,\s|\s\-\s/)
-      reviewed_array.push(new_arr[1])
+      if !reviewed_array.include?(new_arr[1])
+        reviewed_array.push(new_arr[1])
+      end
     end
     "APPROVED\n#{reviewed_array.join("\n")}"
   end
