@@ -12,8 +12,13 @@ describe('#product') do
     expect(product_list.review).to(eq("APPROVED\nkeychain\nholographic t-shirt"))
   end
 
-  it("removed duplicates") do
+  it("removes duplicates") do
     product_list = Product.new("test-input2.txt")
     expect(product_list.review).to(eq("APPROVED\nkeychain\nholographic t-shirt"))
+  end
+
+  it("outputs DENIED if a product has one rejection") do
+    product_list = Product.new("test-input3.txt")
+    expect(product_list.review).to(eq("APPROVED\nkeychain\nholographic t-shirt\n\nDENIED\nmug"))
   end
 end
