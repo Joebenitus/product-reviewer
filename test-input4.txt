@@ -1,0 +1,5 @@
+G.C., keychain - reject
+J.M., holographic t-shirt - approve
+B.L., holographic t-shirt - reject
+J.M., mug - approve
+K.S., mug - reject

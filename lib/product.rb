@@ -25,7 +25,10 @@ class Product
         rejected_array.push(r[1])
       end
     end
-    "APPROVED\n#{(approved_array - rejected_array).join("\n")}\n\nDENIED\n#{rejected_array.join("\n")}"
+    # "APPROVED\n#{(approved_array - rejected_array).join("\n")}\n\nDENIED\n#{rejected_array.join("\n")}"
+    str_approved = (approved_array - rejected_array).length > 0 ? "APPROVED\n#{(approved_array - rejected_array).join("\n")}" : nil
+    str_denied = rejected_array.length > 0 ? "\n\nDENIED\n#{rejected_array.join("\n")}" : nil
+    "#{str_approved}#{str_denied}"
   end
 end
 # puts File.read(input_file)

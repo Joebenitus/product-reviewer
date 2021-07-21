@@ -21,4 +21,9 @@ describe('#product') do
     product_list = Product.new("test-input3.txt")
     expect(product_list.review).to(eq("APPROVED\nkeychain\nholographic t-shirt\n\nDENIED\nmug"))
   end
+
+  it("only outputs DENIED if there are no approved products") do
+    product_list = Product.new("test-input4.txt")
+    expect(product_list.review).to(eq("\n\nDENIED\nkeychain\nholographic t-shirt\nmug"))
+  end
 end
