@@ -1,3 +1,16 @@
+# Product Reviewer
+
+This project parses a test file containing information about products. It outputs which products have been approved and which products have been denied
+
+# Installation
+
+- Clone this repository
+- Open terminal
+- Navigate to 'product-reviewer'
+- Enter the command `ruby script.rb {YOUR_FILE_PATH}`
+
+***Note***: These instructions assume you have Ruby installed on your machine.
+
 ## The Problem
 
 We want you to create a command-line application that will evaluate whether a
