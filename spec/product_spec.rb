@@ -26,4 +26,9 @@ describe('#product') do
     product_list = Product.new("test-input4.txt")
     expect(product_list.review).to(eq("\n\nDENIED\nkeychain\nholographic t-shirt\nmug"))
   end
+
+  it("initializes") do
+    product_list = Product.new("test-input4.txt")
+    expect(product_list.review).to(eq("\n\nDENIED\nkeychain\nholographic t-shirt\nmug"))
+  end
 end

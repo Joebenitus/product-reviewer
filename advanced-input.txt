@@ -1,0 +1,60 @@
+S.M., Hammer - approve
+R.J., Keychain - approve
+B.L., Candy Dispenser - approve
+G.C., Mug - approve
+J.M., Wallet - approve
+B.L., Chair - approve
+S.M., Candy Dispenser - skip
+J.M., Chair - skip
+K.S., Blanket - skip
+R.J., Blanket - reject
+K.S., Watch - approve
+G.C., Blanket - approve
+R.J., Watch - skip
+J.M., Holographic T-shirt - skip
+K.S., Mug - approve
+K.S., Extra-fancy Watch - approve
+S.M., Holographic T-shirt - reject
+S.M., Wallet - approve
+K.S., Keychain - approve
+G.C., Watch - approve
+G.C., Hammer - approve
+G.C., Keychain - approve
+K.S., Candy Dispenser - reject
+K.S., Hammer - approve
+R.J., Hammer - approve
+G.C., Holographic T-shirt - approve
+B.L., Hammer - approve
+R.J., Mug - skip
+B.L., Keychain - reject
+J.M., Extra-fancy Watch - approve
+K.S., Chair - approve
+K.S., Holographic T-shirt - approve
+J.M., Keychain - reject
+G.C., Wallet - approve
+J.M., Hammer - skip
+B.L., Watch - approve
+R.J., Chair - approve
+B.L., Blanket - approve
+K.S., Wallet - approve
+G.C., Chair - skip
+B.L., Wallet - approve
+G.C., Extra-fancy Watch - skip
+R.J., Wallet - approve
+S.M., Watch - approve
+J.M., Watch - approve
+S.M., Keychain - approve
+J.M., Mug - approve
+R.J., Candy Dispenser - approve
+S.M., Mug - approve
+S.M., Blanket - reject
+G.C., Candy Dispenser - reject
+S.M., Extra-fancy Watch - skip
+R.J., Holographic T-shirt - approve
+R.J., Extra-fancy Watch - skip
+B.L., Mug - skip
+S.M., Chair - reject
+B.L., Holographic T-shirt - reject
+B.L., Extra-fancy Watch - reject
+J.M., Candy Dispenser - approve
+J.M., Blanket - approve
